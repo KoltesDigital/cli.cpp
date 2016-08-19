@@ -349,7 +349,8 @@ namespace cli
 
 		ostringstream_t &help()
 		{
-			return help(defaultHelpFlag());
+			flag_t flag = defaultHelpFlag();
+			return help(flag);
 		}
 
 		flag_t defaultHelpFlag()
