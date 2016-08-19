@@ -29,6 +29,7 @@ namespace cli
 
 	template <template <typename T> class Alloc = std::allocator>
 	class BasicParser;
+	typedef BasicParser<> Parser;
 
 	template <template <typename T> class Alloc>
 	class Command
@@ -679,5 +680,4 @@ namespace cli
 		}
 	};
 
-	typedef BasicParser<> Parser;
 }
