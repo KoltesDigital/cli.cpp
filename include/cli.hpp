@@ -491,7 +491,7 @@ namespace cli
 
 		void showHelp(std::ostream &stream)
 		{
-			auto &helpMessage = _helpMessage.str();
+			string helpMessage = _helpMessage.str();
 			if (!helpMessage.empty())
 			{
 				stream << helpMessage << "\n\n";
