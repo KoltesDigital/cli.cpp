@@ -24,7 +24,7 @@
 
 namespace cli
 {
-	template<class T, template <typename T> class Alloc>
+	template<class T, template <typename A> class Alloc>
 	using list_t = std::list<T, Alloc<T>>;
 
 	template <template <typename T> class Alloc = std::allocator>
