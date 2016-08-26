@@ -13,7 +13,9 @@ flags {
 workspace "cli"
 	language "C++"
 	location "build"
-  flags { "C++11" }
+	flags {
+		"C++11"
+	}
 
 project "tests"
 	files {
