@@ -1,9 +1,9 @@
 /*
- * cli.cpp v1.0.0
- * <https://github.com/Bloutiouf/cli.cpp>
- * Copyright (c) 2016 Jonathan Giroux "Bloutiouf"
+ * cli.cpp v1.0.1
+ * <https://github.com/KoltesDigital/cli.cpp>
+ * Copyright (c) 2016 Jonathan Giroux
  * MIT License <https://opensource.org/licenses/MIT>
-*/
+ */
 
 #pragma once
 
