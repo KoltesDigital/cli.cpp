@@ -1,7 +1,7 @@
 /*
  * cli.cpp v1.0.1
  * <https://github.com/KoltesDigital/cli.cpp>
- * Copyright (c) 2016 Jonathan Giroux
+ * Copyright (c) 2016 Jonathan Giroux and contributors
  * MIT License <https://opensource.org/licenses/MIT>
  */
 

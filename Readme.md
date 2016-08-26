@@ -216,12 +216,12 @@ If not explicitly called, is called automatically at `Parser`'s destruction if a
 
 The library is header-only: you don't need to build anything to use it, just include `cli.hpp` in your projects.
 
-Building this library actually means building the *usage* and *tests* projects. The *usage* project allows you to evaluate the library. The *tests* project contains unit tests: if you change this library, always ensure that they still pass after your changes.
+Building this library actually means building the *usage* and *tests* projects. The *usage* project allows you to evaluate the library. The *tests* project contains the unit tests: if you change this library, always ensure that they still pass after your changes.
 
 The build system is [Premake 5](https://premake.github.io/).
 
 ## License
 
-Copyright (c) 2016 Jonathan Giroux "Bloutiouf"
+Copyright (c) 2016 Jonathan Giroux and contributors
 
 [MIT License](https://opensource.org/licenses/MIT)
