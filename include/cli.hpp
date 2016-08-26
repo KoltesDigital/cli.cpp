@@ -349,11 +349,10 @@ namespace cli
 
 		ostringstream_t &help()
 		{
-			flag_t flag = defaultHelpFlag();
-			return help(flag);
+			return help(defaultHelpFlag());
 		}
 
-		flag_t defaultHelpFlag()
+		flag_t &defaultHelpFlag()
 		{
 			return flag("help")
 				.alias("h")
