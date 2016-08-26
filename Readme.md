@@ -19,7 +19,7 @@ int main(int argc, const char **argv)
 
     parser.help()
         << R"(Awesome CLI tool
-Usage: <command> [options] filenames...");
+Usage: <command> [options] filenames...)";
 
     auto output = parser.option("output")
         .alias("o")
